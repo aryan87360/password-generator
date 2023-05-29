@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: rebeccapurple;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.pw-container{
+  border-radius: 10px;
+  width: 400px;
+  background-color: rgb(69, 17, 118);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .6);
+}
+
+.pw-header{
+  padding: 1rem;
+}
+
+.pw{
+  width: 100%;
+  height: 70px;
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.pw-body button{
+  background-color: rgb(10, 166, 57);
+  margin: 2rem 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .6);
+  padding: .5rem 1rem;
+
+}
+
+/* #copy{
+  margin-left: 90px;
+} */
+
+.form-control{
+  display: flex;
+  padding: .4rem 1rem;
+  justify-content: space-between;
+}
+
+.form-control label input{
+  flex: 2;
+}
